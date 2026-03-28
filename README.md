@@ -35,3 +35,46 @@ Jupyter Notebook
 ✅ Conclusion
 This project demonstrates how raw, noisy text can be converted into clean, structured data, forming a strong foundation for NLP and machine learning tasks.
 
+**Task 2: Sentiment Analysis using NLP Pipeline & ML Models**
+Overview
+This project builds an end-to-end Sentiment Analysis system using NLP techniques and Machine Learning models. The goal is to transform raw text into meaningful features and classify sentiments as positive or negative.
+
+🎯 Objectives
+Perform text preprocessing on raw data
+Convert text into numerical features
+Train multiple ML models
+Evaluate and compare model performance
+🔄 Pipeline
+Raw Text → Preprocessing → Feature Engineering → Model Training → Evaluation → Comparison
+
+🧹 NLP Preprocessing
+Lowercasing
+Removing punctuation & special characters
+Stopword removal
+Tokenization
+Stemming
+⚙️ Feature Engineering
+Bag of Words (BoW)
+TF-IDF Vectorization
+🤖 Models Used
+Logistic Regression
+Naive Bayes
+Decision Tree
+📊 Evaluation Metrics
+Accuracy
+Precision
+Recall
+F1 Score
+📈 Results & Insights
+Logistic Regression performed best overall
+TF-IDF gave better results than BoW
+Preprocessing improved model accuracy
+Decision Tree showed slight overfitting
+🛠️ Tech Stack
+Python
+NLTK
+Scikit-learn
+Jupyter Notebook
+✅ Conclusion
+The project demonstrates how NLP preprocessing and feature engineering significantly impact sentiment classification. Among all models, Logistic Regression with TF-IDF provided the best performance.
+
