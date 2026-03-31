@@ -78,3 +78,29 @@ Jupyter Notebook
 ✅ Conclusion
 The project demonstrates how NLP preprocessing and feature engineering significantly impact sentiment classification. Among all models, Logistic Regression with TF-IDF provided the best performance.
 
+**Task 3:Build a Chatbot using Hugging Face Transformers**
+* Overview
+This project builds a simple chatbot that interacts with users and generates responses using basic NLP techniques. The chatbot simulates conversation flow and handles multiple user queries.
+Objective
+To develop a conversational chatbot that accepts user input and provides meaningful responses.
+* Features
+User input handling
+Response generation
+Continuous conversation
+Exit condition (exit / quit)
+*Workflow
+User Input → Processing → Response → Loop
+💬 Sample Output
+You: hello  
+Bot: Hello! Nice to meet you.
+You: what is ai  
+Bot: Artificial Intelligence is the simulation of human intelligence by machines.
+You: exit  
+Bot: Goodbye!
+Limitation
+Due to environment limitations (transformers not supported), a rule-based chatbot is implemented.
+🛠️ Tech UsedPython
+Jupyter Notebook
+Regular Expressions
+✅ Conclusion
+The chatbot demonstrates basic NLP concepts and provides simple interactive responses.
