@@ -104,3 +104,77 @@ Jupyter Notebook
 Regular Expressions
 ✅ Conclusion
 The chatbot demonstrates basic NLP concepts and provides simple interactive responses.
+
+**NLP Assignment 4: Fine-Tuning BERT on IMDB Dataset**
+
+## 📌 Objective
+
+The objective of this assignment is to understand and implement fine-tuning of a pre-trained BERT model for text classification using a real-world dataset.
+
+## Dataset
+
+* Dataset used: **IMDB Movie Reviews**
+* Source: Kaggle / Hugging Face Datasets
+* Total samples: 25,000 (reduced subset used for faster training)
+
+## 🔄 Workflow
+
+### 1. Data Loading
+
+The dataset was loaded using the Hugging Face `datasets` library and converted into a pandas DataFrame.
+### 2. Data Preprocessing
+
+* Converted text to lowercase
+* Removed HTML tags
+* Removed special characters
+* Cleaned the dataset for better model performance
+
+### 3. Data Splitting
+
+The dataset was divided into:
+
+* Training set
+* Validation set
+* Test set
+
+### 4. Tokenization
+
+* Used `bert-base-uncased` tokenizer
+* Converted text into token IDs
+* Applied padding and truncation
+
+### 5. Model Building
+
+* Used `AutoModelForSequenceClassification`
+* Loaded pre-trained BERT model
+* Configured for binary classification
+
+### 6. Fine-Tuning
+
+* Optimizer: AdamW
+* Learning rate: 2e-5
+* Model trained on training dataset
+
+## ⚠️ Note
+
+Due to computational limitations (CPU-based execution), the evaluation phase (accuracy, precision, recall, F1 score, confusion matrix) and advanced experiments could not be fully executed.
+
+
+## 📊 Expected Outcomes
+
+* A fine-tuned BERT model capable of classifying movie reviews as positive or negative
+* Improved understanding of transformer-based models
+
+## 🛠️ Tools & Technologies
+* Python
+* Hugging Face Transformers
+* PyTorch
+* Google Colab
+
+## 📌 Conclusion
+This assignment helped in understanding how pre-trained transformer models like BERT can be fine-tuned for NLP tasks. Despite computational limitations, the implementation of preprocessing, tokenization, and model training was successfully completed.
+
+## Submission
+* GitHub Repository: (Add your link here)
+* LinkedIn Post: (Add your link here)
+
