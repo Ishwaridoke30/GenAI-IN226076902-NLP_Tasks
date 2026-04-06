@@ -178,3 +178,9 @@ This assignment helped in understanding how pre-trained transformer models like 
 * GitHub Repository: (Add your link here)
 * LinkedIn Post: (Add your link here)
 
+**NLP Assignment 5: POS Tagging & Chunking**
+This task focuses on token classification using transformer-based techniques for POS tagging and chunking.
+Text data is tokenized and processed, and labels are aligned for sequence prediction.
+Model performance is evaluated using Precision, Recall, and F1 Score.
+Inference is demonstrated on custom sentences with predicted POS and chunk labels.
+A comparison between POS tagging and chunking is also included.
